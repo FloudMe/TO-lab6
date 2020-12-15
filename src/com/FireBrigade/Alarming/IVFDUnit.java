@@ -1,0 +1,15 @@
+package com.FireBrigade.Alarming;
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author retsu
+ */
+public interface IVFDUnit {
+    ResponseCode notify(String CCIR_CODE);
+}
